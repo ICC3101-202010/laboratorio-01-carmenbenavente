@@ -10,6 +10,9 @@ namespace laboratorio_1
     {
         static void Main(string[] args)
         {
+            Person p = new Person("Bob","Kunga");
+            p.Throw();
+            Console.ReadLine();
         }
     }
 }

@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace laboratorio_1
 {
-    class Person
+    public class Person
     {
-        public void Person.Throw();
-        int Values = Random.Next(0, 3);
-        Console.WriteLine(Values);
+        private string name;
+        private string lastName;
+        public Person(string name, string lastName)
+        {
+            this.name = name;
+            this.lastName = lastName;
+        }
+        public void Throw()
+        {
+            Random number = new Random();
+            int play = number.Next(0, 3);
+            Console.WriteLine(play);
+        }
+
     }
 }
