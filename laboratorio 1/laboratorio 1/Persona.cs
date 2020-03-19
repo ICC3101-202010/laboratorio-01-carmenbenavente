@@ -8,7 +8,8 @@ namespace laboratorio_1
 {
     class Person
     {
-        public void Throw();
-        int values = Random.Next(0, 3);
+        public void Person.Throw();
+        int Values = Random.Next(0, 3);
+        Console.WriteLine(Values);
     }
 }
